@@ -41,3 +41,31 @@ body{
         display: block;
     }
 }
+/* end header */
+
+/* start footer */
+
+.footer{
+    background-color: #EEEFFB;
+    padding: 50px 0px;
+}
+.footer a,.address-info{
+    color: #8A8FB9;
+    font-family: var(--main);
+}
+.footer a{
+    text-align: left;
+}
+.footer-item{
+    gap: 45px;
+}
+.footer .left-side{
+    align-items: flex-start;
+}
+.footer .right-side{
+    width: 60%;
+}
+.footer h2{
+    font-family: "Josefin Sans", sans-serif;;
+}
+/* end footer */

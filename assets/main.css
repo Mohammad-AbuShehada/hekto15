@@ -51,7 +51,7 @@ body{
 }
 .footer a,.address-info{
     color: #8A8FB9;
-    font-family: var(--main);
+    font-family: var(--mainFont);
 }
 .footer a{
     text-align: left;

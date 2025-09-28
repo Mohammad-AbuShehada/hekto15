@@ -68,12 +68,7 @@ body{
 .footer-item{
     gap: 45px;
 }
-.footer .left-side{
-    align-items: flex-start;
-}
-.footer .right-side{
-    width: 60%;
-}
+
 .footer h2{
     font-family: "Josefin Sans", sans-serif;;
 }
@@ -98,7 +93,7 @@ body{
         width: 100%;
     }
 }
-/* end footer */
+
 
 /* end footer */
 

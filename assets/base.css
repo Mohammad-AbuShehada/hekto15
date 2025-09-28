@@ -37,6 +37,7 @@ ul{
     width:calc(100% - 320px);
     margin: auto;
 }
+
 @media screen and (max-width:1400px){
     
     .container{

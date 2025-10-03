@@ -13,6 +13,9 @@ ul{
     --main:#FB2E86;
     --mainFont:"Lato", sans-serif;
 }
+.main-color{
+    color: var(--main);
+}
 .Josefin-Sans{
     font-family: "Josefin Sans", sans-serif;
 }
@@ -26,6 +29,15 @@ ul{
     background-color: var(--main);
     padding: 16px 40px;
     border-radius: 2px;
+}
+.product-btn{
+    position: relative; 
+    height: 30px ; 
+    bottom: 9px; 
+    left: 45px;
+    text-align: center; 
+    padding: 10px 20px;
+    display: none;
 }
 .btn-primary{
     background-color: var(--main);
@@ -100,4 +112,13 @@ ul{
 }
 .text-left{
     text-align: left;
+}
+.size-12{
+    font-size: 12px;
+}
+.size-14{
+    font-size: 14px;
+}
+.size-16{
+    font-size: 16px;
 }

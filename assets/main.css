@@ -246,6 +246,9 @@ body{
     display: flex;
     align-items: center;
 }
+.Leatest-Product .product .img{
+    padding: 0px;
+}
 .Leatest-Product .product .img img{
     padding-bottom: 35px;
     height: 236px;
@@ -267,6 +270,36 @@ body{
     }
 }
 /* end Leatest Product */
+/* start shopex offer */
+.shopex-offer h2{
+    margin-bottom: 30px;
+    color: #151875;
+    font-size: 42px;
+    text-align: center;
+}
+.offer-card img{
+    width: 80px;
+}
+.offer-card{
+    width: calc((100% - 25px) / 4);
+    padding: 55px 0px;
+    background: #fff;  
+    flex: 1 0 200px;
+}
+.offer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 20px;
+}
+.offer-info h3{
+    color: #151875;
+}
+.offer-info p{
+    color: #1A0B5B;
+    opacity: 30%;
+}
+/* end shpex offer */
 /* start newslater */
 
 .newslater{

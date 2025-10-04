@@ -277,14 +277,15 @@ body{
     font-size: 42px;
     text-align: center;
 }
-.offer-card img{
-    width: 80px;
-}
+
 .offer-card{
     width: calc((100% - 25px) / 4);
     padding: 55px 0px;
     background: #fff;  
     flex: 1 0 200px;
+}
+.offer-card img{
+    width: 80px;
 }
 .offer-info {
     display: flex;
@@ -294,12 +295,57 @@ body{
 }
 .offer-info h3{
     color: #151875;
+    font-family: "Josefin Sans", sans-serif;;
 }
 .offer-info p{
     color: #1A0B5B;
     opacity: 30%;
+    font-family: var(--mainFont);
 }
 /* end shpex offer */
+/* start trending product */
+
+.trending-product{
+    padding: 50px 0px;
+}
+.trending-product h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+.trending-product .row{
+    gap: 15px;
+    justify-content: flex-start;
+}
+.t-product{
+    flex: 1 0 200px;
+    border-radius: 5px;
+}
+.t-product .img{
+    background-color: #F5F6F8;
+    padding: 30px;
+    height: 236px;
+}
+.t-product-details{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.t-product-details h3{
+    color: #151875;
+    font-family: var(--mainFont);
+}
+.t-product-info{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    color: #151875;
+    font-family:  "Josefin Sans", sans-serif;
+}
+/* end trending product */
 /* start newslater */
 
 .newslater{

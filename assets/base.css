@@ -134,3 +134,6 @@ ul{
 .o-4{
     opacity: 40%;
 }
+.t-line-through{
+    text-decoration: line-through;
+}

@@ -247,7 +247,7 @@ body{
     align-items: center;
 }
 .Leatest-Product .product .img{
-    padding: 0px;
+    padding: 20px 0px;
 }
 .Leatest-Product .product .img img{
     padding-bottom: 35px;
@@ -346,6 +346,59 @@ body{
     font-family:  "Josefin Sans", sans-serif;
 }
 /* end trending product */
+/* start Top Categories */
+.top-categories h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+.top-categories .row{
+    gap: 20px;
+    justify-content: flex-start;
+}
+.categories-product{
+    flex: 1 0 200px;
+    border-radius: 5px;
+}
+.categories-product .img{
+    background-color: #F5F6F8;
+    padding: 40px 0px;
+    height: 250px;
+    border-radius: 50%;
+}
+.c-product-details{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+.c-product-details h3{
+    color: #151875;
+    font-family: "Josefin Sans", sans-serif;
+}
+.c-product-info{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    color: #151875;
+    font-family:  "Josefin Sans", sans-serif;
+}
+.categories-product .product-btn {
+    position: relative;
+    height: 30px;
+    bottom: 13px;
+    left: 77px;
+    text-align: center;
+    padding: 10px 20px;
+    display: none;
+}
+.categories-product:hover .product-btn{
+    display: block;
+    text-align: center;
+}
+/* end Top Categories */
 /* start newslater */
 
 .newslater{

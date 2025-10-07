@@ -447,6 +447,74 @@ body{
     }
 }
 /* end clients */
+/* start Leatest Blog */
+.leatest-blog h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: #151875;
+    margin-bottom: 60px;
+    font-size: 42px;
+}
+.leatest-blog .row{
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 45px;
+}
+.leatest-blog .product {
+    position: relative;
+    flex: 0 0 200px;
+    border-radius: 5px;
+    background-color: #F6F7FB;
+}
+.leatest-blog .product .img img {
+    height: 200px;
+}
+.leatest-blog .product .img{
+    padding: 0px;
+    height: 200px;
+}
+.leatest-blog .leatest-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px 7px;
+    color: #151875;
+    justify-content: space-between;
+}
+.leatest-details {
+    color: #151875;
+    justify-content: space-between;
+    display: flex;
+}
+.leatest-blog .leatest-details .icons{
+    color: #151875;
+    gap: 20px;
+    display: flex;
+}
+.leatest-blog .leatest-product-info{
+        display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.leatest-blog .leatest-product-info h3{
+    transition: all .8s;
+}
+.leatest-blog .leatest-product-info p{
+    color: #72718F;
+    font-family: var(--mainFont);
+}
+.leatest-blog .leatest-product-info a{
+    color: #151875;
+    font-family: var(--mainFont);
+    text-decoration: underline;
+    transition: all .8s;
+}
+.leatest-blog .product:hover .leatest-product-info h3{
+    color: var(--main);
+}
+.leatest-blog .product:hover .leatest-product-info a{
+    color: var(--main);
+}
+/* end Leatest Blog */
 /* start footer */
 .footer{
     background-color: #EEEFFB;
